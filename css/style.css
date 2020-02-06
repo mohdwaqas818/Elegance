@@ -1,0 +1,622 @@
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*Menu*/
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header-image{
+    background-image: url('../images/index_pro_02.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.brand-name{
+    font-size: 15px;
+}
+
+.menu-link{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.v1{
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.brand-name{
+    margin-top: 5px;
+    padding-left: 30px;
+}
+
+/*JOIN*/
+
+.join{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+.join h5{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.subscribe-textbox{
+    background-color: white;
+    padding: 10px;
+    margin: 0 30px;
+}
+
+.subscribe-textbox input{
+    background-color: #f0f0f0;
+    padding: 10px 100px;
+    width: 40%;
+}
+
+/*Mobile Display*/
+
+.mobile{
+    text-align: center;
+}
+
+.row2{
+    margin: 50 100;
+}
+
+.mobileheading{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mobilecontent{
+    text-align: center;
+    margin-top: 20px;
+	margin-bottom:70px;
+}
+
+/*Gallery*/
+
+.gallary{
+    background-color: #d1d1d1;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.gallary-head{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.gallary-content{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gallary-play-pic{
+    text-align: center;
+    margin-top: 60px;
+    margin: 80px;
+}
+
+/*Testimonial*/
+
+.testimonial {
+    background-color: #dadada;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+}
+
+.quotes-head{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.carousel-indicators {
+    bottom: -10px;
+}
+.carousel-inner .item img {
+    border: 2px solid #129CF3;
+    border-radius: 50%;
+    padding: 3px;
+}
+.testimonial-caption {
+    padding-bottom: 70px;
+}
+.testimonial-caption h2 {
+    color: #129CF3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+.testimonial-caption h4 {
+    color: #129CF3;
+}
+
+.testimonial-caption h4 span {
+    
+    color: black;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.testimonial-caption p {
+    color: black;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 50px;
+}
+
+/***Developer Team**/
+
+.gal-dev img{
+    margin: 40px 0px;
+}
+
+.the-developer{
+    text-align: center;
+    padding: 70 0px;
+}
+
+.developer-1 p
+{
+    margin-bottom: 20px;
+}
+
+/*Gallary*/
+
+.head-gall{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.gallary-image{
+    background-color: #e6e6e6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.thegallary{
+    background-image: url('../images/index_pro_03.jpg');
+    height: 72%;
+    margin-top: 6%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-gray1{
+    background-image: url('../images/right-gray.jpg');
+    height: 35%;
+    width: 100%;
+    margin-top: 6%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-gray2{
+    background-image: url('../images/right-gray.jpg');
+    height: 35%;
+    width: 100%;
+    margin-top: 13px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-gray3{
+    background-image: url('../images/gallary-full.jpg');
+    margin-top: 15px;
+    height: 15%;
+    margin-bottom: 43px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**The Plan**/
+
+.plan-month{
+    padding-top: 70px;
+}
+
+.plans{
+    padding: 0 100px;
+}
+
+.single-month span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sub1{
+    border: 5px solid #D1D1D1;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.sub1 img{
+    margin: 30px 0px;
+}
+
+.sub1 li{
+    list-style-type: none;
+}
+
+.sub1 h4{
+    margin-bottom: 15px;
+}
+
+.sub1 li{
+    margin-bottom: 20px;
+}
+
+.sub2{
+    border: 5px solid #f8e074;
+    text-align: center;
+    
+}
+
+.content img{
+    margin: 30px 0px;
+}
+
+.content button{
+    margin-bottom: 35px;
+}
+
+.star{
+    float: right;
+}
+
+.content{
+    margin-top: 35px;
+}
+
+.sub2 li{
+    list-style-type: none;
+}
+
+.sub2 h4{
+    margin-bottom: 15px;
+}
+
+.sub2 li{
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    margin-top: 20px;
+    background-color: transparent;
+    color: #395e67;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*BUY*/
+
+.buy{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.buynow-head, .buynow-content, .buynow-button, .buynow-metades{
+    text-align: center;
+}
+
+.buynow-head, .buynow-content{
+    margin-top: 30px;
+}
+
+.buynow-button{
+    margin-top: 20px;
+}
+
+.buynow-metades{
+    margin-top: 5px;
+}
+
+/*****Section - Project*****/
+
+.projects{
+    background-image: url('../images/back-project.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+}
+
+.project-head{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.project-dot{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-small-head{
+    font-size: 16px;
+}
+
+.row-project{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+/*Some CLients*/
+
+.subnstay{
+    text-align:center;
+}
+
+.subnstay-image{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.brandname1{
+    margin-bottom: 70px;
+}
+
+.brandname1 img{
+    text-align: center;
+    width: 100%;
+}
+
+/*****Section - Project*****/
+
+.connected{
+    background-image: url('../images/sub-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+
+.sub-head{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sub-info{
+    text-align: center;
+}
+
+.textbox-sub{
+    padding: 10 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F0F0F0;
+}
+
+.sub-bottom{
+    margin-bottom: 100px;
+}
+
+/*****Section - Contact Form*****/
+
+.contact-form{
+    background-image: url('../images/contact-form-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-whitebg{
+    background-image: url('../images/contact-form-white.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 70px 100px; 
+    margin-bottom: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.form-connect-submit{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-submit{
+    margin-bottom: 20px;
+  
+}
+
+.form-submit-button{
+    margin-top: 30px;
+}
+
+.form-submit-email{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form-submit-copyright{
+    text-align: center;
+}
+
+.footer-elegacy{
+    background-image: url('../images/footer-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f1{
+    margin-top: 100px;
+    margin-left:30px;
+}
+
+.elegacy-dot{
+    margin-top: 10px;
+}
+
+.elegacy-copyright{
+    color: white;
+    margin-top: 20px;
+}
+
+.f2{
+    margin-top: 100px;
+}
+
+.elegacy-pristine{
+    color: white;
+    margin-top: 105px;
+}
+
+.elegacy-pristine-content{
+    margin-top: 20px;
+    color: white;
+}
+
+.elegacy-pristine-ul{
+    color: white;
+    margin-top: 20px;
+}
+
+.elegacy-pristine-ul li{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.elegacy-pristine-social{
+    color: white;
+    margin-top: 20px;
+}
+
+.elegacy-pristine-social li{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.f4{
+    margin-top: 100px;
+    color: white;
+}
+
+.elegacy-connect-ul{
+    color: white;
+}
+
+.elegacy-connect-ul li{
+    list-style-type: none;
+    margin-left: -40px;  
+}
+
+.elegacy-connect-ul{
+    margin-left: 30px;
+}
+
+.elegacy-connect-ul li{
+    margin: 20px;
+
+    list-style-type: none;
+}
+
+
+.nav-social li{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.nav-social li i{
+    margin-top: 8px;
+}
+
+.fb{
+    margin-left: 20px;
+}
+
+#fb-social{
+    margin-left: 9px;
+}
+
+.social-link{
+    margin-left: -60px;
+    margin-bottom: 94px;
+}
+
+.social-link li{
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.fb{
+    margin-left: 30px;
+}
+
+.social-nav li{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.social-nav li i{
+    margin-left: 9px;
+    margin-top: 8px;
+}
+
+.fb{
+    margin-left: 30px;
+    color: white;
+}
+
+.social-head{
+    color: white;
+    margin-top: 104px;
+}
+
+.footerdot{
+    text-align: center;
+}
+
+.backtop{
+    text-align: center;
+}
+
+.back{
+    color: white;
+    font-weight: bold;
+}
+
